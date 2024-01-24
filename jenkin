@@ -13,8 +13,14 @@ pipeline {
                 stage("sonarqube test")
             }
             {
+                stage("artifactory final")
                 stage("artifactory")
             }
+            {
+                stage
+            }
+            stage
+
     
 }
           
