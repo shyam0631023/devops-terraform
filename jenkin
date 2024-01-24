@@ -1,4 +1,5 @@
 pipeline {
+           step
             steps
              {
                stage("checkout")
