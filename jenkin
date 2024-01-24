@@ -18,9 +18,6 @@ pipeline {
                 stage("artifactory")
             }
             {
-                stage ("added new file")
-            }
-    
-}
+
           
     
