@@ -16,6 +16,11 @@ pipeline {
                 stage("artifactory final")
                 stage("artifactory")
             }
+            {
+                stage
+            }
+            stage
+
     
 }
           
