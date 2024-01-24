@@ -1,0 +1,22 @@
+pipeline {
+            steps
+             {
+               stage("checkout")
+             }
+            {
+                stage("build")
+            }
+            {
+                stage("test")
+            }
+            {
+                stage("sonarqube test")
+            }
+            {
+                stage("artifactory final")
+                stage("artifactory")
+            }
+    
+}
+          
+    
