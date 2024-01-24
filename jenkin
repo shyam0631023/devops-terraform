@@ -1,4 +1,5 @@
 pipeline {
+           step
             steps
              {
                stage("checkout")
@@ -17,14 +18,7 @@ pipeline {
                 stage("artifactory")
             }
             {
-                stage
-            }
-    
-            stage22
-        
 
 
-    
-}
           
     
