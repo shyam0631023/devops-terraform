@@ -1,24 +1,20 @@
 pipeline {
-           step
-            steps
-             {
-               stage("checkout")
-             }
-            {
-                stage("build")
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                //
             }
-            {
-                stage("test")
+        }
+        stage('Test') {
+            steps {
+                //
             }
-            {
-                stage("sonarqube test")
+        }
+        stage('Deploy') {
+            steps {
+                //
             }
-            {
-                stage("artifactory final")
-                stage("artifactory")
-            }
-            {
-
-
-          
-    
+        }
+    }
+}
